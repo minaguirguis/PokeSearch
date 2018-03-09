@@ -72,11 +72,33 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		561573B4205246F400C265F8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		561573B52052470100C265F8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				569455532050F79D0055E09F /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		561573B62052470800C265F8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				569455512050F79D0055E09F /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		5622177F2050FF6B00CB6A9C /* GeoFire */ = {
 			isa = PBXGroup;
 			children = (
 				562217802050FF6B00CB6A9C /* GeoFire-Prefix.pch */,
-				562217812050FF6B00CB6A9C /* Implementation */,
 				5622178C2050FF6B00CB6A9C /* API */,
 			);
 			path = GeoFire;
@@ -131,10 +153,12 @@
 		5694554E2050F79D0055E09F /* PokeSearch */ = {
 			isa = PBXGroup;
 			children = (
+				561573B4205246F400C265F8 /* Model */,
+				561573B62052470800C265F8 /* Controller */,
+				561573B52052470100C265F8 /* View */,
+				562217812050FF6B00CB6A9C /* Implementation */,
 				5622177F2050FF6B00CB6A9C /* GeoFire */,
 				5694554F2050F79D0055E09F /* AppDelegate.swift */,
-				569455512050F79D0055E09F /* ViewController.swift */,
-				569455532050F79D0055E09F /* Main.storyboard */,
 				569455562050F79D0055E09F /* Assets.xcassets */,
 				569455582050F79D0055E09F /* LaunchScreen.storyboard */,
 				5694555B2050F79D0055E09F /* Info.plist */,

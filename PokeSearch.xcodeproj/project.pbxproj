@@ -19,6 +19,7 @@
 		569455572050F79D0055E09F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 569455562050F79D0055E09F /* Assets.xcassets */; };
 		5694555A2050F79D0055E09F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 569455582050F79D0055E09F /* LaunchScreen.storyboard */; };
 		569455622050F83A0055E09F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 569455612050F83A0055E09F /* GoogleService-Info.plist */; };
+		56DCC2EA205327A90087515A /* PokeAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DCC2E9205327A90087515A /* PokeAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		569455592050F79D0055E09F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5694555B2050F79D0055E09F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		569455612050F83A0055E09F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		56DCC2E9205327A90087515A /* PokeAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeAnnotation.swift; sourceTree = "<group>"; };
 		C59333ADE009B57BEDA57833 /* Pods_PokeSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PokeSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBBC0779C4070E3B1C86DB0C /* Pods-PokeSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokeSearch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PokeSearch/Pods-PokeSearch.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -75,6 +77,7 @@
 		561573B4205246F400C265F8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				56DCC2E9205327A90087515A /* PokeAnnotation.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -83,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				569455532050F79D0055E09F /* Main.storyboard */,
+				569455582050F79D0055E09F /* LaunchScreen.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -159,11 +163,10 @@
 				562217812050FF6B00CB6A9C /* Implementation */,
 				5622177F2050FF6B00CB6A9C /* GeoFire */,
 				5694554F2050F79D0055E09F /* AppDelegate.swift */,
+				5622179E2051031100CB6A9C /* PokeSearch-Bridging-Header.h */,
 				569455562050F79D0055E09F /* Assets.xcassets */,
-				569455582050F79D0055E09F /* LaunchScreen.storyboard */,
 				5694555B2050F79D0055E09F /* Info.plist */,
 				569455612050F83A0055E09F /* GoogleService-Info.plist */,
-				5622179E2051031100CB6A9C /* PokeSearch-Bridging-Header.h */,
 			);
 			path = PokeSearch;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				569455522050F79D0055E09F /* ViewController.swift in Sources */,
+				56DCC2EA205327A90087515A /* PokeAnnotation.swift in Sources */,
 				562217922050FF6B00CB6A9C /* GeoFire.m in Sources */,
 				569455502050F79D0055E09F /* AppDelegate.swift in Sources */,
 				562217942050FF6B00CB6A9C /* GFQuery.m in Sources */,

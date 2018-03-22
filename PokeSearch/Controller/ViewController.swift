@@ -88,14 +88,14 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         
         let circleQuery = geoFire!.query(at: location, withRadius: 2.5)
         
-        _ = circleQuery?.observe(GFEventType.keyEntered, with: { (key, location) in
-            
-            if let key = key, let location = location {
+        _ = circleQuery.observe(GFEventType.keyEntered, with: { (key, location) in
+ 
+            if key != nil, location != nil {
                 let anno = PokeAnnotation(coordinate: location.coordinate, pokemonNumber: Int(key)!)
                 self.mapView.addAnnotation(anno)
             }
         })
-    }
+}
     
 
     @IBAction func spotRandomPokemon(_ sender: Any) {
